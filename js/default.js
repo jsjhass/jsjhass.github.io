@@ -2,18 +2,18 @@
     $.ajaxSetup({ cache: false });
     $('#pagecontent').load("home.html");
     $('#home').click(function () {
-        $('#pagecontent').hide().load("home.html").fadeIn("slow");
+        $('#pagecontent').load("home.html");
     });
     $('#about').click(function () {
-        $('#pagecontent').hide().load("about.html").fadeIn("slow");
+        $('#pagecontent').load("about.html");
     });
     $('#article').click(function () {
-        $('#pagecontent').hide().load("article.html").fadeIn("slow");
+        $('#pagecontent').load("article.html");
     });
     $('#project').click(function () {
-        $('#pagecontent').hide().load("project.html").fadeIn("slow");
+        $('#pagecontent').load("project.html");
     });
     $('#contact').click(function () {
-        $('#pagecontent').hide().load("contact.html").fadeIn("slow");
+        $('#pagecontent').load("contact.html");
     });
 });
