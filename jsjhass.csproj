@@ -43,6 +43,7 @@
     <Content Include="contact.html" />
     <Content Include="home.html" />
     <Content Include="images\matrix.gif" />
+    <Content Include="jagdeepresume.docx" />
     <None Include="js\jquery-3.2.1.intellisense.js" />
     <Content Include="images\my.jpg" />
     <Content Include="js\jquery-3.2.1.min.js" />
