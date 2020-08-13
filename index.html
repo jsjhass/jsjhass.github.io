@@ -2,30 +2,40 @@
 <html>
 <head>
     <title>jsjhass</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/default.css" />
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/default.js"></script>
 </head>
 <body>
     <div id="header">
-        <div id="logo">jsjhass</div>
-        <div id="nav">
-            <ul>
-                <li id="home">Home</li>
-                <li id="about">About</li>
-                <li id="project">Projects</li>
-                <li id="article">Articles</li>
-                <li id="contact">Contact</li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-default navmain" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/logo.png" alt="logo" />
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" id="home"><span class="menulink">Home</span></a></li>
+                    <li><a href="#" id="about"><span class="menulink">About</span></a></li>
+                    <li><a href="#" id="project"><span class="menulink">Projects</span></a></li>
+                    <li><a href="#" id="article"><span class="menulink">Articles</span></a></li>
+                    <li><a href="#" id="contact"><span class="menulink">Contact</span></a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div id="pagecontainer">
-        <div id="pagecontent">
-            
-        </div>
+    <div id="pagecontent">
+
     </div>
     <div id="footer">
-        &copy; jsjhass
+        <p>&copy; jsjhass</p>
     </div>
 </body>
 </html>
