@@ -54,12 +54,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="css\default.css" />
+    <Content Include="j.docx" />
+    <Content Include="j.pdf" />
     <None Include="js\default.js" />
     <None Include="index.html" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="r.docx" />
-    <Content Include="r.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
