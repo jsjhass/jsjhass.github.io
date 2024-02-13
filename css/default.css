@@ -3,18 +3,25 @@ body
     margin:0;
     padding:0;
 }
+html
+{
+    scroll-behavior:smooth;
+}
 header
 {
     background:linear-gradient(#12c2d4,#ffffff);
+    height:140px;
 }
-#pagecontent
+.pagecontent 
 {
-    min-height:800px;
+    min-height: 800px;
+    background: linear-gradient(#379a84,#bae5e8);
+    padding-top: 40px;
 }
 .hometext
 {
     font-size:36px;
-    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 footer
 {
@@ -25,4 +32,9 @@ footer
 {
     margin-bottom:-2px;
     border-bottom:2px solid #ff6a00;
+}
+.contacttext
+{
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

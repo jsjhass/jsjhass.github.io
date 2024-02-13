@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="css/default.css" />
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/default.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-toggleable-md navbar-light border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-md navbar-toggleable-md navbar-light box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -20,18 +19,93 @@
                 </button>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item"><a href="#" id="home" class="nav-link"><b>Home</b></a></li>
-                        <li class="nav-item"><a href="#" id="about" class="nav-link"><b>About</b></a></li>
-                        <li class="nav-item"><a href="#" id="project" class="nav-link"><b>Projects</b></a></li>
-                        <li class="nav-item"><a href="#" id="article" class="nav-link"><b>Articles</b></a></li>
-                        <li class="nav-item"><a href="#" id="contact" class="nav-link"><b>Contact</b></a></li>
+                        <li class="nav-item"><a href="#home" class="nav-link"><b>Home</b></a></li>
+                        <li class="nav-item"><a href="#project" class="nav-link"><b>Projects</b></a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link"><b>Contact</b></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div id="pagecontent">
-
+    <div id="home" class="pagecontent">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="hometext">
+                        Hello, I am Jagdeep Singh Jhass. My preferred technologies are ASP.Net, Entity framework, jquery, CSS and HTML. My target is to become a full stack developer.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/home.jpeg" alt="code" class="img-fluid rounded" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project" class="pagecontent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="mb-4">Projects</h2>
+                    <table class="table table-responsive table-striped table-bordered d-block d-md-table d-sm-table w-100 bg-light">
+                        <tr>
+                            <th>Project</th>
+                            <th>Link</th>
+                        </tr>
+                        <tr>
+                            <td>Customer</td>
+                            <td>
+                                <a href="https://github.com/jsjhass/customer" class="btn btn-primary" target="_blank">View Code</a>&nbsp;&nbsp;
+                                <button data-toggle="modal" data-target="#customer" class="btn btn-info">Preview</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tshirtstore</td>
+                            <td>
+                                <a href="https://github.com/jsjhass/tshirtstore" class="btn btn-primary" target="_blank">View Code</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Propdalal</td>
+                            <td>
+                                <a href="https://github.com/jsjhass/propdalal" class="btn btn-primary" target="_blank">View Code</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Online Test</td>
+                            <td>
+                                <a href="https://github.com/jsjhass/onlinetest" class="btn btn-primary" target="_blank">View Code</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="pagecontent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>Contact Me</h2>
+                    <p class="contacttext">Feel free to contact me</p>
+                    <p class="contacttext">Email: jsjhass@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="customer" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Customer</h2>
+                </div>
+                <div class="modal-body">
+                    <video width="500" height="500" src="preview/customer.mp4" controls="controls"></video>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-close btn btn-warning" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="bg-dark text-center">
         <p class="text-white">&copy; jsjhass</p>
