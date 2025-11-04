@@ -9,7 +9,7 @@ html
 }
 header
 {
-    background:linear-gradient(#12c2d4,#ffffff);
+    background-color:#12c2d4;
     height:140px;
 }
 .pagecontent 
@@ -37,4 +37,16 @@ footer
 {
     font-size:30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link
+{
+    background:linear-gradient(#b621e9,#3acbbe);
+    border-radius:10px;
+    border:none;
+}
+.link:hover 
+{
+    background: linear-gradient(#3acbbe,#b621e9);
+    border:none;
+    color:#ffffff;
 }
